@@ -1,0 +1,10 @@
+# Here you can place the packages that will be installed and removed
+type: rpm-ostree
+repos: 
+   - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-39/solopasha-hyprland-fedora-39.repo
+install:
+   - zsh
+
+remove:
+   - firefox # default firefox removed in favor of flatpak
+   - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems

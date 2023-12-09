@@ -1,5 +1,9 @@
 ublue_variants:
-  - label: ublue-os/startingpoint
-    ks: /kickstart/ublue-os.ks
+  - label: Heus-Sueh/ublue-template
+    ks: /kickstart/Heus-Sueh.ks
     flavors:
-      - label: startingpoint
+      - label: ublue-template
+  - label: Heus-Sueh/ublue-template-nvidia
+    ks: /kickstart/ublue-os-nvidia.ks
+    flavors:
+      - label: ublue-template-nvidia
